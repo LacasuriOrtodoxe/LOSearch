@@ -382,4 +382,4 @@ LOSearch supports the following operators for criteria:
 
 ## License
 
-LOSearch is open-source and free to use. Feel free to contribute or report issues on [GitHub](https://github.com/your-repo).
+LOSearch is open-source and free to use. Feel free to contribute or report issues on [GitHub](https://github.com/LacasuriOrtodoxe/LOSearch).
