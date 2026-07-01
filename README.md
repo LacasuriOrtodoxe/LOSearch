@@ -48,6 +48,17 @@ LOSearch is a single-class library. Simply include the `LOSearch.php` file in yo
 require_once 'losearch.php';
 ```
 
+Download dependencies:
+
+- https://github.com/LacasuriOrtodoxe/LODatabase
+- https://github.com/LacasuriOrtodoxe/LOForm
+
+```php
+require_once 'losearch.php';
+require_once 'lodatabase.php';
+require_once 'loform.php';
+```
+
 ---
 
 ## Basic Usage
