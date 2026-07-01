@@ -25,7 +25,7 @@ LOSearch allows you to define search criteria programmatically, making it easy t
 ## 🌐 Demo
 
 Test LOSearch live on our official webpage: 
-🔗 [LOSearch Demo](https://lacasuriortodoxe.ro/academia/open-source/lohtml/)
+🔗 [LOSearch Demo](https://lacasuriortodoxe.ro/academia/open-source/losearch/)
 
 More open-source projects: 
 🔗 [Open Source projects](https://lacasuriortodoxe.ro/academia/open-source/)
