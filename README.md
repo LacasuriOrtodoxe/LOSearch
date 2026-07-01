@@ -178,7 +178,9 @@ if (!empty($_GET)) {
 }
 
 // Render the form
-$form->form();
+$form->form([
+    'action' => 'get'
+]);
 ```
 
 ---
@@ -218,7 +220,7 @@ $db->commit();
 $search = new LOSearch($db);
 
 // Define search criteria
-$search->criteria(['column' => 'name', 'operator' => '%']);
+$search->criteria(['column' => 'name', 'operator' => '%i']);
 $search->criteria(['column' => 'price', 'operator' => '<']);
 $search->criteria(['column' => 'tags', 'exact_match' => false]);
 
@@ -277,7 +279,9 @@ if (!empty($_GET)) {
 }
 
 // Render the form
-$form->form();
+$form->form([
+    'method' => 'get'
+]);
 
 // Output headers and footers for LOForm (if needed)
 LOForm::header();
